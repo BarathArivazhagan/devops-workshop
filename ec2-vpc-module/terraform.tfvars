@@ -1,0 +1,7 @@
+aws_region="us-east-1"
+ami="ami-0b898040803850657"
+instance_type = "t2.micro"
+sg_id = "sg-32c10168"
+subnet_id = "subnet-6ad78a44"
+key_name = "barib4you-us-east-1"
+cidr_block = "11.0.0.0/16"
