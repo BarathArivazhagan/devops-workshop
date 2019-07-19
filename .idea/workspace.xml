@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a95dc496-761b-41f1-bc2b-c3bc4f1649da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec2-vpc-module/ec2/ec2.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-vpc-module/ec2/ec2.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec2-vpc-module/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-vpc-module/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ec2-vpc-module/vpc/vpc.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-vpc-module/vpc/vpc.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ec2/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/ec2/main.tf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,19 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ec2-vpc-module/main.tf">
+        <entry file="file://$PROJECT_DIR$/ec2/main.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ec2-vpc-module/terraform.tfvars">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -76,17 +64,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interpolation/variables.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="13" />
+            <state>
+              <caret column="20" selection-start-column="10" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interpolation/terraform.tfvars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interpolation/terraform.tfvars">
+        <entry file="file://$PROJECT_DIR$/vpc-interpolation/main.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="276">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vpc-interpolation/variables.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,15 +102,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ec2-vpc-module/vpc/variables.tf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -121,7 +118,6 @@
         <option value="$PROJECT_DIR$/ec2/prod.tfvars" />
         <option value="$PROJECT_DIR$/ec2/variables.tf" />
         <option value="$PROJECT_DIR$/ec2/dev.tfvars" />
-        <option value="$PROJECT_DIR$/ec2/main.tf" />
         <option value="$PROJECT_DIR$/ec2-sg/variables.tf" />
         <option value="$PROJECT_DIR$/ec2-sg/terraform.tfvars" />
         <option value="$PROJECT_DIR$/ec2-sg/main.tf" />
@@ -135,6 +131,9 @@
         <option value="$PROJECT_DIR$/interpolation/main.tf" />
         <option value="$PROJECT_DIR$/interpolation/variables.tf" />
         <option value="$PROJECT_DIR$/interpolation/terraform.tfvars" />
+        <option value="$PROJECT_DIR$/ec2/main.tf" />
+        <option value="$PROJECT_DIR$/vpc-interpolation/variables.tf" />
+        <option value="$PROJECT_DIR$/vpc-interpolation/main.tf" />
       </list>
     </option>
   </component>
@@ -194,7 +193,7 @@
             <path>
               <item name="devops-terraform-training-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="devops-terraform-training-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="interpolation" type="462c0819:PsiDirectoryNode" />
+              <item name="vpc-interpolation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +202,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/interpolation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vpc-interpolation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -211,11 +210,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vpc-interpolation" />
       <recent name="$PROJECT_DIR$/interpolation" />
       <recent name="$PROJECT_DIR$/ec2-vpc-module/vpc" />
       <recent name="$PROJECT_DIR$/ec2-vpc-module/ec2" />
       <recent name="$PROJECT_DIR$/ec2-vpc-module" />
-      <recent name="$PROJECT_DIR$/ec2-sg" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,13 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ec2/main.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ec2-vpc-module/ec2/variables.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -376,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interpolation/variables.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ec2/variables.tf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -397,10 +382,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interpolation/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/interpolation/terraform.tfvars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vpc-interpolation/variables.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ec2/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vpc-interpolation/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
         </state>
       </provider>
     </entry>
