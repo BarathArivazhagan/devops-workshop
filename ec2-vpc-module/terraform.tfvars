@@ -1,6 +1,0 @@
-aws_region="us-east-2"
-ami="ami-0b898040803850657"
-instance_type = "t2.micro"
-sg_id = "sg-32c10168"
-key_name = "https://github.com/BarathArivazhagan/demo-devops"
-cidr_block = "11.0.0.0/16"

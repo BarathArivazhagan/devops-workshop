@@ -1,0 +1,5 @@
+aws_region = "us-east-2"
+ami="ami-0d8f6eb4f641ef691"
+sg_id = "sg-09588075816d68eee"
+key_name = "barib4you-us-east-ohio"
+instance_type = "t2.micro"

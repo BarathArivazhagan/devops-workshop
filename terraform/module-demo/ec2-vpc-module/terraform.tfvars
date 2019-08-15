@@ -1,0 +1,7 @@
+aws_region = "us-east-2"
+ami= "ami-0d8f6eb4f641ef691"
+sg_id = "sg-0a5f178a3eee94269"
+subnet_id = "subnet-3f0c4845"
+key_name = "barib4you-us-east-ohio"
+cidr_block = "10.0.0.0/16"
+instance_type = "t2.micro"
