@@ -11,8 +11,7 @@ resource "aws_instance" "ec2_instance" {
   instance_type = "${var.instance_type}"
   subnet_id = "${var.subnet_id}"
   key_name = "${var.key_name}"
-  security_groups = aws_security_group.sg.id
-  iam_instance_profile = "kops-role"
+  security_groups = [aws_security_group.sg.id]
   tags = {
     Name = "terraform-ec2-demo-sg"
   }
@@ -20,11 +19,7 @@ resource "aws_instance" "ec2_instance" {
     volume_size = 12
     volume_type = "gp2"
   }
-  ebs_block_device {
-    device_name = ""
-    volume_size = "12"
-    volume_type = "gp2"
-  }
+
 
 }
 

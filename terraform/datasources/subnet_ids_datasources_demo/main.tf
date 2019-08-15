@@ -16,7 +16,7 @@ resource "aws_instance" "ec2_instance" {
   count = 3
   ami = var.ami
   instance_type = var.instance_type
-  subnet_id = data.aws_subnet_ids.demo_ids.ids[count.index]
+  subnet_id = tolist(data.aws_subnet_ids.demo_ids.ids)[count.index]
   key_name = var.key_name
   security_groups = [var.sg_id]
 
