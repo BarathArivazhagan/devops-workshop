@@ -1,0 +1,9 @@
+ami_id = "ami-0b898040803850657"
+instance_count = 3
+vpc_id = ""
+subnet_id = ""
+instance_type = ""
+key_name = ""
+device_name="/dev/sdh"
+aws_region="us-east-1"
+az_zone="us-east-1a"
